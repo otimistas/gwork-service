@@ -29,7 +29,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - 50051:50051
+      - 50054:50054
     working_dir: /app
     command: sh -c "/init/run.sh"
     depends_on:
