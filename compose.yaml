@@ -1,0 +1,50 @@
+services:
+  app:
+    container_name: gwork-service
+    build:
+      context: .
+      dockerfile: sample-container/Dockerfile
+    environment:
+      APP_DEBUG: true
+      APP_ENV: development
+      DEBUGGING_PORT: 2348
+      GWORK_GATEWAY_HOST: "0.0.0.0"
+      GWORK_GATEWAY_PORT: 50051
+      GWORK_AUTH_HOST: "0.0.0.0"
+      GWORK_AUTH_PORT: 50052
+      GWORK_LOGGER_HOST: "0.0.0.0"
+      GWORK_LOGGER_PORT: 50053
+      GWORK_SERVICE_HOST: "0.0.0.0"
+      GWORK_SERVICE_PORT: 50054
+      GWORK_STORAGE_HOST: "0.0.0.0"
+      GWORK_STORAGE_PORT: 50055
+      PORT: 50054
+      DB_HOST: db
+      DB_CONNECTION: postgresql
+      DB_PORT: 5432
+      DB_NAME: gwork
+      DB_USERNAME: postgres
+      DB_PASSWORD: password
+      DB_URL: postgres://postgres:password@db:5432/gwork?sslmode=disable # For Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - 50051:50051
+    working_dir: /app
+    command: sh -c "/init/run.sh"
+    depends_on:
+      - db
+  db:
+    container_name: gwork-db
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=gwork
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:

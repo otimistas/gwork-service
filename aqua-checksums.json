@@ -1,0 +1,79 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/cli/cli/v2.40.1/gh_2.40.1_linux_amd64.tar.gz",
+      "checksum": "7F34EE83A7DD17ADDD1D029BC66EC06D91773A93172E3E1E30E0EC3A9F923FE2",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/golang-migrate/migrate/v4.17.0/migrate.linux-amd64.tar.gz",
+      "checksum": "26C53C9162C9C4AAA84C47CD12455D4A9AC725BEFBE82850A5937B5EC1E7B8E6",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/golangci/golangci-lint/v1.55.2/golangci-lint-1.55.2-linux-amd64.tar.gz",
+      "checksum": "CA21C961A33BE3BC15E4292DC40C98C8DCC5463A7B6768A3AFC123761630C09C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/gotestyourself/gotestsum/v1.11.0/gotestsum_1.11.0_linux_amd64.tar.gz",
+      "checksum": "531C37EC646A9793A3C473831B9EE5314DA8056C263772840D96AFE9A9498E93",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/grpc/grpc-go/cmd/protoc-gen-go-grpc/v1.3.0/protoc-gen-go-grpc.v1.3.0.linux.amd64.tar.gz",
+      "checksum": "A2893F7DB287BC8C54A8AE633C1A84482DD21A270F97AD1C63772B93EE8C0D35",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/hadolint/hadolint/v2.12.0/hadolint-Linux-x86_64",
+      "checksum": "56DE6D5E5EC427E17B74FA48D51271C7FC0D61244BF5C90E828AAB8362D55010",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/k1LoW/tbls/v1.72.0/tbls_v1.72.0_linux_amd64.tar.gz",
+      "checksum": "12824108E712F2F8D21258E7C69896460573A58C286053BA419C09301176B6E9",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/koalaman/shellcheck/v0.9.0/shellcheck-v0.9.0.linux.x86_64.tar.xz",
+      "checksum": "700324C6DD0EBEA0117591C6CC9D7350D9C7C5C287ACBAD7630FA17B1D4D9E2F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/magefile/mage/v1.15.0/mage_1.15.0_Linux-64bit.tar.gz",
+      "checksum": "AF8FB0C72944EC6E31C5DD54E642083400157883602F4A89A692C4BA96EE1E66",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/makiuchi-d/arelo/v1.13.0/arelo_Linux_x86_64.tar.gz",
+      "checksum": "E9891E464C5B511BEB4D571FFC0F7E1A289AE413A482B25C192B31A76A123E6E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/protocolbuffers/protobuf-go/v1.32.0/protoc-gen-go.v1.32.0.linux.amd64.tar.gz",
+      "checksum": "E1C468D934C4015573A57ED3E89E0D303170DC1D3F765AF634A5BAE06D5FD3C7",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/protocolbuffers/protobuf/v25.1/protoc-25.1-linux-x86_64.zip",
+      "checksum": "ED8FCA87A11C888FED329D6A59C34C7D436165F662A2C875246DDB1AC2B6DD50",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.6.26/actionlint_1.6.26_linux_amd64.tar.gz",
+      "checksum": "F0294C342AF98FAD4FF917BC32032F28E1B55F76AEDF291886EC10BBED7C12E1",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/sqlc-dev/sqlc/v1.24.0/sqlc_1.24.0_linux_amd64.tar.gz",
+      "checksum": "F3D1BE92EE57B448BC628A912906BB8B7F49929D36C6D36CEB18033EBE42D760",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.112.0/registry.yaml",
+      "checksum": "6836E4EAF65639F6E7303CBD43A80F2309E60C2F6792CB7197EB3DF0ACBDAA2B7D5272C08A342E7DAC3C00C9C38ACB5ED95D3948D3172CB5B068FADC52D660FB",
+      "algorithm": "sha512"
+    }
+  ]
+}
